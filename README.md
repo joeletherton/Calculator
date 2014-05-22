@@ -11,6 +11,8 @@ Once the interface was finished I began wiring events without functionality. It 
 
 Once the operations were complete, it was time to work on the memory feature. This actually turned out to be an even lower rent version of the calculator itself. I toyed with the idea of making the memory buttons conform to the "standard" operations, but it seemed a bit overkill for such minor features so I created their own events for them and added a label in the corner to show the status of a number in memory. 
 
+Finally, after all features behaved as I wanted I refactored a couple of pieces within the events that looked a little repetitive. They weren't drastic, and I could have left them unfactored. I wanted a slightly cleaner code base though, and for such a simple project I felt it would be amateurish, lazy even, to leave them in their repetitive state. As my professor "Bud" used to say, "Whenever you see repetition like this, your spidey senses should be goin' CRAZY!"
+
 Overall it took about 3 hours or so to complete, and it's still got a few issues I haven't really bothered with to test or to fix. It handles decimals just fine, however I didn't test it with fringe decimals or with infinite repeaters or with 2's complement problems. I set the max length of the number to 8, but I didn't provide any formatting features such as exponential, overflows, or decimal refinement. I also didn't do any "error" checking for numerics that couldn't be adequately display. 
 
 Even though I used a decimal instead of a double, I still used an epsilon comparison for zero equality. Decimal is supposed to be able to handle a zero equality, but I come from the days of double and frankly I'm a little paranoid sometimes.
