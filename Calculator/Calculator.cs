@@ -61,10 +61,10 @@ namespace Calculator
 
         private void btnNumeric_Add(object sender, EventArgs e)
         {
-            if (txtCurrentValue.Text.Length >= 9)
+            if (txtCurrentValue.Text.Length >= 8)
             {
                 MessageBox.Show(
-                    "Numbers may not exceed 9 digits", 
+                    "Numbers may not exceed 8 digits", 
                     "Max length problem", 
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Hand);

@@ -16,3 +16,6 @@ I:\Development\Code Tests\KLA\Calculator\Calculator\obj\Debug\Calculator.csprojR
 I:\Development\Code Tests\KLA\Calculator\Calculator\obj\Debug\Calculator.Calculator.resources
 I:\Development\Code Tests\KLA\Calculator\Calculator\obj\Debug\Calculator.Properties.Resources.resources
 I:\Development\Code Tests\KLA\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.Cache
+C:\Users\jetherton\Documents\GitHub\Calculator\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\jetherton\Documents\GitHub\Calculator\Calculator\obj\Debug\Calculator.exe
+C:\Users\jetherton\Documents\GitHub\Calculator\Calculator\obj\Debug\Calculator.pdb
